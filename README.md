@@ -12,7 +12,7 @@ Proyecto eccommerce para practicar react
 
 ## Autor
 <div>
-    <p style = 'text-align:center;'>
-        <img src="https://avatars.githubusercontent.com/u/1572578?v=4" alt="Favillon" width="300px">
+    <p style="text-align:center;">
+        <img src="https://avatars.githubusercontent.com/u/1572578?v=4" alt="Favillon" width="100px">
     </p>
 </div>
