@@ -1,12 +1,14 @@
 import { useState, useEffect } from "react";
 
 import { Card } from "../Components/Card"
+import { ProductDetail } from "../Components/ProductDetail";
+
 
 const Home = () => {
   const [items, setItems] = useState([]);
 
   useEffect ( () => {
-    fetch('https://api.escuelajs.co/api/v1/products?offset=0&limit=24')
+    fetch('https://api.escuelajs.co/api/v1/products?offset=0&limit=10')
       .then(response => response.json())
       .then(data => setItems(data))
   }, []);
@@ -21,6 +23,7 @@ const Home = () => {
           }
         </section>
       </div>
+      <ProductDetail />
     </>
   )
 }
